@@ -12,6 +12,6 @@ fonts:
     - PadawanWallet/Resources/Fonts
   outputs:
     templateName: swift5
-    output: PadawanWallet/Resources/Fonts/Resources+Fonts.swift
+    output: PadawanWallet/Resources/Fonts/Fonts+Generated.swift
     params:
       enumName: Fonts
