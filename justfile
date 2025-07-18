@@ -37,5 +37,5 @@ ios-locales:
 ios-locales-strings:
   cd ./localization/scripts/ \
   && find ../../iOS/PadawanWallet/Resources/ -name '*.lproj' -type d -exec rm -rf {} + \
-  && python3 build-ios-strings.py \
+  && python build-ios-strings.py \
   && mv ../ios/* ../../iOS/PadawanWallet/Resources/
